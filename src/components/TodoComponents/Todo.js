@@ -1,11 +1,11 @@
 import React from 'react'
 
-class Todo extends React.Component{
-    render() {
-        return (
-            <h2>Todo</h2>
-        );
-    }
-}
+const Todo = (props) => {
+    return (
+        <div style={props.todo.completed ? {textDecoration: 'line-through'} : null} ck={() => props.handleToggleComplete(props.todo.id)}>
+            {props.todo.task}
+        </div>
+    );
+};
 
 export default Todo
