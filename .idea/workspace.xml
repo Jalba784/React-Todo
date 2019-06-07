@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b4a697a-36f4-4516-8cab-aa3d1ee8ded4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TodoComponents/TodoForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoComponents/TodoForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -53,14 +51,14 @@
             </splitter>
           </split-first>
           <split-second>
-            <splitter split-orientation="horizontal" split-proportion="0.7912772">
+            <splitter split-orientation="horizontal" split-proportion="0.19159664">
               <split-first>
                 <leaf>
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoForm.js">
                       <provider selected="true" editor-type-id="text-editor">
                         <state relative-caret-position="161">
-                          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+                          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
                         </state>
                       </provider>
                     </entry>
@@ -72,10 +70,11 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoList.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="276">
-                          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+                        <state relative-caret-position="207">
+                          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
                           <folding>
                             <element signature="n#!!doc" expanded="true" />
+                            <element signature="e#120#146#0" expanded="true" />
                           </folding>
                         </state>
                       </provider>
@@ -110,13 +109,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/components/TodoComponents/Todo.js" />
-        <option value="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/TodoComponents/TodoForm.js" />
+        <option value="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1366" />
     <option name="height" value="768" />
   </component>
@@ -190,15 +189,15 @@
       <updated>1559777271373</updated>
       <workItem from="1559777277849" duration="339000" />
       <workItem from="1559795518094" duration="1028000" />
-      <workItem from="1559798659104" duration="7811000" />
+      <workItem from="1559798659104" duration="8608000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9178000" />
+    <option name="totallyTimeSpent" value="9975000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
+    <frame x="0" y="0" width="854" height="768" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24312268" />
@@ -254,16 +253,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/Todo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -284,7 +273,18 @@
     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#120#146#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
