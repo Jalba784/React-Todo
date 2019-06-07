@@ -15,7 +15,8 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h2>Welcome to your Todo App!</h2>
+        {/*<h2>Welcome to your Todo App!</h2>*/}
+        <h1>Todo List: MVP</h1>
         <Todo/>
         <TodoForm></TodoForm>
       </div>
