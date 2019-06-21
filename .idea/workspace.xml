@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b4a697a-36f4-4516-8cab-aa3d1ee8ded4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TodoComponents/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TodoComponents/Todo.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,9 +16,9 @@
   <component name="FileEditorManager">
     <splitter split-orientation="vertical" split-proportion="0.6787149">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.29312977">
+        <splitter split-orientation="horizontal" split-proportion="0.707124">
           <split-first>
-            <splitter split-orientation="horizontal" split-proportion="0.863354">
+            <splitter split-orientation="horizontal" split-proportion="0.19252336">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file pinned="false" current-in-tab="true">
@@ -44,7 +44,11 @@
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/Todo.js">
-                      <provider selected="true" editor-type-id="text-editor" />
+                      <provider selected="true" editor-type-id="text-editor">
+                        <state relative-caret-position="69">
+                          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+                        </state>
+                      </provider>
                     </entry>
                   </file>
                 </leaf>
@@ -52,7 +56,7 @@
             </splitter>
           </split-first>
           <split-second>
-            <splitter split-orientation="horizontal" split-proportion="0.21308412">
+            <splitter split-orientation="horizontal" split-proportion="0.8">
               <split-first>
                 <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
                   <file pinned="false" current-in-tab="true">
@@ -71,8 +75,8 @@
                   <file pinned="false" current-in-tab="true">
                     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoList.js">
                       <provider selected="true" editor-type-id="text-editor">
-                        <state relative-caret-position="207">
-                          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+                        <state relative-caret-position="330">
+                          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
                           <folding>
                             <element signature="n#!!doc" expanded="true" />
                             <element signature="e#120#146#0" expanded="true" />
@@ -110,10 +114,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Todo.scss" />
-        <option value="$PROJECT_DIR$/src/components/TodoComponents/Todo.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/TodoComponents/TodoForm.js" />
         <option value="$PROJECT_DIR$/src/components/TodoComponents/TodoList.js" />
+        <option value="$PROJECT_DIR$/src/components/TodoComponents/Todo.js" />
       </list>
     </option>
   </component>
@@ -194,12 +198,12 @@
       <workItem from="1559777277849" duration="339000" />
       <workItem from="1559795518094" duration="1028000" />
       <workItem from="1559798659104" duration="12160000" />
-      <workItem from="1560908091081" duration="7712000" />
+      <workItem from="1560908091081" duration="8342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21239000" />
+    <option name="totallyTimeSpent" value="21869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="586" y="0" width="780" height="768" extended-state="6" />
@@ -219,7 +223,7 @@
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32931727" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32931727" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -242,9 +246,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Todo.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/Todo.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -283,12 +284,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/TodoList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="330">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#120#146#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TodoComponents/Todo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
